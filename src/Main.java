@@ -9,11 +9,12 @@ public class Main {
         double myPayment1 = service.calculate(month1, creditAmount, interestRate);
         double myPayment2 = service.calculate(month2, creditAmount, interestRate);
         double myPayment3 = service.calculate(month3, creditAmount, interestRate);
-        System.out.println(myPayment1);
-        System.out.println(myPayment2);
-        System.out.println(myPayment3);
+        int payment1 = (int) myPayment1;
+        int payment2 = (int) myPayment2;
+        int payment3 = (int) myPayment3;
+        System.out.println(payment1);
+        System.out.println(payment2);
+        System.out.println(payment3);
     }
-
-
 }
 
